@@ -14,6 +14,15 @@
   </head>
   <body>
     <main>
+      <div class="ui modal">
+        <div class="header">My favourite languages &#128514;</div>
+        <div class="image content">
+          <img src="assets/images/languages.jpg" class="ui fluid image">
+          <div class="description">
+            <p>You guys asked for some memes)</p>
+          </div>
+        </div>
+      </div>
       <div id="wave">
         <div class="credits">
           Built using <a href="https://volodymyrkushnir.com/" rel="external"><strong>volodymyrkushnir.com</strong></a> 🧰
@@ -185,5 +194,12 @@
           </div>
       </article>
     </main>
+    <script>
+      function show(){
+        $('.ui.modal')
+      .modal('show')
+      ;
+      }
+    </script>
   </body>
 </html>
