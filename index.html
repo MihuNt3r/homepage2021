@@ -1,10 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous"></script>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="ui modal">
+        <div class="header">My favourite languages &#128514;</div>
+        <div class="image content">
+          <img src="assets/images/languages.jpg" class="ui fluid image">
+          <div class="description">
+            <p>You guys asked for some memes)</p>
+          </div>
+        </div>
+      </div>
+      <div id="wave">
+        <div class="credits">
+          Built using <a href="https://volodymyrkushnir.com/" rel="external"><strong>volodymyrkushnir.com</strong></a> 🧰
+        </div>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="414 334 1440 118">
+          <path fill="currentColor" d="M1168.4,421.2c266.9,49.9,515.4,28.9,685.6,8.8v-96H414v96C601.3,407.8,844,360.6,1168.4,421.2z"></path>
+        </svg>
+      </div>
+      <article>
+          <div class="page" style="border-color: lightblue;">
+            <div class="stackable grid">
+              <div class="row">
+                <div class="three wide center aligned column">
+                  <div class="avatar-wrapper">
+                    <object class="avatar" data="./assets/images/avatar.jpg" role="img" aria-label="My profile picture"></object>
+                  </div>
+                </div>
+                <div class="thirteen wide column">
+                  <div class="stackable grid">
+                    <div class="sixteen wide column">
+                      <h1 class="name">Misha Borovyk</h1>
+                      <div class="job">Student of National Aviation University</div>
+                      <ul class="contacts">
+                          <li>
+                              <a href="https://www.linkedin.com/in/misha-borovyk-9197b9203/" rel="author" class="linkedin">
+                                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                      <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                                  </svg>
+                                  <span>Misha-Borovyk</span>
+                              </a>
+                          </li>
+                        <li>
+                          <a href="mailto:borovykmis@gmail.com" rel="author" class="mail">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                            <span>borovykmis@gmail.com</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://t.me/mihunt3r" rel="author" class="telegram">
+                              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                  <path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                                  </path>
+                              </svg>
+                              <span>mihunt3r</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/mihunt3r/" rel="author" class="instagram">
+                            <svg class="icon" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551.034 551.034" style="enable-background:new 0 0 551.034 551.034;" xml:space="preserve"> <path class="logo" id="XMLID_17_" d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"/> <path id="XMLID_81_" fill="#555" d="M275.517,133C196.933,133,133,196.933,133,275.516 s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6 c-48.095,0-87.083-38.988-87.083-87.083s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083 C362.6,323.611,323.611,362.6,275.517,362.6z"/> <circle id="XMLID_83_" fill="#555" cx="418.306" cy="134.072" r="34.149"/> </svg>
+                            <span>mihunt3r</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="sixteen wide mobile only column">
+                      <div class="divider"></div>
+                    </div>
+                    <div class="sixteen wide column">
+                      <h2>Résumé</h2>
+                      <p>&mdash;Hello! I'm a software engineering student, who wants to become a developer. I think this profession will help me create various software which will make people's life easier.</p>
+                      <p class="quote">"Everything is possible in your life when you believe" - Yoel Romero</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="sixteen wide column">
+                  <div class="fat divider"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="ten wide column">
+                  <h3>Timeline</h3>
+                  <ul class="timeline">
+                      <li>
+                          <p><i>September 2019 - till now</i></p>
+                          <strong>Student in NAU, FCCSE</strong>
+                          <ul>
+                              <li class="details">
+                                  <p><i>And now I am here studying software engineering. I’m studying programming and I do enjoy, most aspects of it.
+                                    I have chosen the profession of software engineer and made right decision)</i></p>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                        <p><i>2008 - 2019</i></p>
+                        <strong>School</strong>
+                        <ul>
+                          <li class="details">
+                            <input type="checkbox" id="lyceum">
+                            <label for="lyceum" class="summary">
+                              <strong>Pupil</strong> at <strong>1 School, Baryshivka, Kyiv Region</strong>
+                            </label>
+                            <div>
+                              <ul>
+                                <li>I was very proud when I became a pupil. This elementary school, I attended, wasn’t exactly very big since my home town didn’t probably have more than 10 or 15 thousand population. When I was attending an elementary school, I didn’t know very much about how a school should have been. But, one thing is for sure that I liked going to my elementary school as a child. Primary school was easy for me. I liked learning, reading books, and explore something new every day.</li>
+                                <li>When I got older I started trying myself in different kinds of sport. In 5th grade, I went to the football section. I enjoyed playing football and every day after school I ran to the pitch to play. Then I with my friend tried to go to the basketball section. That was a great time too.</li>
+                                <li>Then in high school, I started doing Thai boxing and some workout. After a few months, I took part in my first Thai boxing competition. And I lost it. But after another few months of training, I took part in the next competitions. And this time I won. Those were crazy feelings. It's really incredible when you win and the referee raises your hand. At such moments you feel very proud of yourself. Because hard work always pays off. </li>
+                                <li>Then graduation year came. And with it came the fear of future exams. The whole last year at school I went to tutors to prepare for the exams. I was not sure about my knowledge of English and mathematics. Fortunately, the year of preparation was not in vain and I successfully passed the exams. I graduated and went to National Aviation University. </li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>The best childhood</strong>
+                          </p>Of course with sweet, toys, parent's love and friends)<p></p>
+                        <p></p>
+                      </li>
+                      <li>
+                        <p><em>23<sup>th</sup> July 2002</em></p>
+                        <p>
+                          <strong>Born</strong> in <strong>Kyiv, Ukraine</strong><sup><em></em></sup>
+                        </p>
+                      </li>
+                  </ul>
+                </div>
+                <div class="six wide column">
+                  <section>
+                    <h3>Languages</h3>
+                    <p class="tags small">
+                      <span class="language" lang="en">🇺🇸 ENGLISH</span>
+                      <span class="language" lang="uk">🇺🇦 УКРАЇНСЬКА</span></a>
+                      <span class="language" lang="ru">🇷🇺 РУССКИЙ</span></a>
+                    </p>
+                    <a id="resume" href="#" onclick="show()" title="Show real languages photo">
+                      <span class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </span>
+                      <em>My real languages</em>
+                    </a>
+                  </section>
+                  <section>
+                    <h3>Skills</h3>
+                    <p class="tags small">
+                      ASP.Net Core, .Net Framework, HTML\CSS, JS, Bootstrap, OOP, OOD, SOLID principles, Design Patterns, MS SQL, T-SQL.
+                    </p>
+                  </section>
+                  <section>
+                    <h3>Character</h3>
+                    <p class="tags small">
+                      EXPLORER, DREAMER, CHALLENGING, HARDWORKING, CURIOUS
+                    </p>
+                  </section>
+                  <section>
+                    <h3>Like&#x1f603</h3>
+                    <p class="tags small">
+                      SPORT, WORKOUT, SELF-DEVELOPING, ADRENALINE, BJJ, MUAY-THAI, MOVIES, TV SERIES, SPEND TIME WITH FAMILY, TRUE FRIENDSHIP
+                    </p>
+                  </section>
+                  <section>
+                    <h3>Dislike&#x1f61e</h3>
+                    <p class="tags small">
+                      INJURIES, SADNESS, LONELINESS, LIE, POLITICS
+                    </p>
+                  </section>
+                  <section>
+                    <h3>Want&#x1f97a</h3>
+                    <p class="tags small">
+                      BE HEALTHY, CHASE OWN DREAMS, BE HAPPY, MAKE PEOPLE AROUND ME HAPPY
+                    </p>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+      </article>
+    </main>
+    <script>
+      function show(){
+        $('.ui.modal')
+      .modal('show')
+      ;
+      }
+    </script>
   </body>
 </html>
