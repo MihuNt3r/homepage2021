@@ -1,46 +1,46 @@
 .contacts li a.instagram:hover {
-    color: #c13584;
+	color: #c13584;
 }
-  
+
 /* Wave */
 #wave {
-    color: lightblue;
-    padding-top: calc((100% - 1127px) / 2);
-    height: 7em;
-    box-sizing: content-box;
-    background: currentColor;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
+	color: rgb(157, 158, 158);
+	padding-top: calc((100% - 1127px) / 2);
+	height: 7em;
+	box-sizing: content-box;
+	background: currentColor;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
 }
-  
+
 #wave svg {
-    display: block;
-    position: relative;
-    top: calc(7em - 1px);
+	display: block;
+	position: relative;
+	top: calc(7em - 1px);
 }
-  
+
 /* Credits */
-  
+
 .credits {
-    text-align: right;
-    padding: 0.5em 0.75em;
-    line-height: 1em;
-    transition: opacity 0.2s linear;
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    color: white;
-    background: lightblue;
-    border-radius: 15px;
+	text-align: right;
+	padding: 0.5em 0.75em;
+	line-height: 1em;
+	transition: opacity 0.2s linear;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	color: white;
+	background: rgb(157, 158, 158);
+	border-radius: 15px;
 }
-  
+
 .credits:not(:hover) a {
-    color: indianred;
+	color: indianred;
 }
-  
+
 .credits:hover {
-    color: black;
-    background: white;
+	color: black;
+	background: white;
 }
